@@ -30,5 +30,5 @@ test('renders footer text', async () => {
   await waitFor(() => {
     const footerElement = screen.getByText(/copyright © 2022/i);
     expect(footerElement).toBeInTheDocument();
-  });
+  }); 
 });
